@@ -1,0 +1,104 @@
+
+/* Reseteo */
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+/* Variables*/
+:root {
+  --lav-light: #f2deff;
+  --lav: #B57EDC;
+}
+
+
+
+/* Tipografía general */
+body {
+  font-family: raleway;
+}
+
+
+.bg-lav{
+  background-color:#f2deff;
+}
+
+
+.btn-primary{
+  background-color:#B57EDC;
+  border-color: #B57EDC;
+  transition: all 0.2s ease-out;
+}
+
+.btn-primary:hover{
+  background-color:#be9fd4;
+  border-color: #be9fd4;
+  transform: scale(0.8);
+}
+
+
+
+/* Footer */
+footer {
+  width: 100%;
+  background: var(--lav);
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.anchoFooter {
+  margin-top: 30px;
+}
+
+.redes {
+
+  display: inline-block;
+}
+
+.bi-facebook {
+  /* font-size: 30px; */
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-whatsapp {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-whatsapp:hover {
+  color: #25D366;
+}
+
+.bi-instagram {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-instagram:hover {
+  color: #8a3ab9;
+}
+
+
+@media (max-width: 576px) { 
+  .mt-mobile{
+    margin-top: 2rem;
+  }
+}
+
+
+
